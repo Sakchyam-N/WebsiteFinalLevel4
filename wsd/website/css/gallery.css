@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    width:1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.child{
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.child img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        width:300px;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 10px;
+        padding: 50px;
+        justify-content: space-around;
+    }
+
+    
+    .child{
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
+    }
+}

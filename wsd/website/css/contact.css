@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+#container2{height: 1000px;  margin: auto; width: 1140px;}
+
+input{width: 500px; height: 50px; margin: 10px; border-radius: 30px; padding: 8px; font-family: Ubuntu;}
+
+input:hover{height: 55px;}
+
+textarea{margin: 10px; width: 500px; border-radius: 30px; padding: 8px; font-family: Ubuntu;}
+
+label{margin: 19px; font-size: 20px; font-family: Ubuntu;}
+
+h1{font-family: Ubuntu; text-align: center;}
+
+.contactBox{width: 520px; height: auto; background-color: whitesmoke; margin: auto auto;}
+
+.textBox{
+    width: 520px; 
+    height: 50px; 
+    background-color: whitesmoke; 
+    margin-top: 65px; 
+    font-family: Times New Roman; 
+    margin-left: 415px; 
+    margin-top: 75px;}
+
+@media screen and (max-width:950px)
+{
+    .contactBox{width: 330px; margin-left: 100px; height: auto; margin-bottom: 10px;}
+    input{width: 300px;}
+    textarea{width: 300px;}
+    .textBox{width: 320px;height: 70px; margin-left: 100px;}
+}
+
+@media screen and (max-width:375px){
+    .textBox{
+        width: 375px; 
+        height: 50px; 
+        background-color: whitesmoke; 
+        margin-top: 70px; 
+        font-family: Times New Roman; 
+        margin-left: 0px;
+        }
+
+        input{width: 300px; height: 50px; margin: 10px; border-radius: 30px; padding: 8px; font-family: Ubuntu;}
+
+        textarea{margin: 0px; width: 300px; border-radius: 30px; padding: 8px; font-family: Ubuntu;}
+
+        .contactBox{width: 370px; height: auto; background-color: whitesmoke; margin: auto auto;}
+
+        textarea{margin: 0px; width: 500px; border-radius: 30px; padding: 8px; font-family: Ubuntu;}
+}

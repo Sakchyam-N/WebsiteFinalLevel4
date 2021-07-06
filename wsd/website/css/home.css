@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.wrapper{
+    display: flex;
+    width:1100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 800px;
+    padding: 10px;
+    margin-left: 130px;
+}
+
+
+.wrapper div{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper div:hover{
+    width: 305px;
+    height: 205px;
+}
+
+
+#child2{
+    width: 1000px;
+    height: 250px;
+    text-align: center;
+    background-image: url(../Images/bgbanner.jpg);
+    color: yellow;
+    border-radius: 100px;
+
+}
+
+#child2 h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+#child2 h1:hover{
+    color:rgba(255, 255, 255,0.5);
+}
+
+#child3{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#child3 h1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 50px;
+}
+
+#child3 h1:hover{
+    font-size: 55px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+        display: flex;
+        width:300px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height:auto;
+        padding: 10px;
+        margin-left: 80px;
+    }
+
+    .wrapper div{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper div:hover{
+        width: 205px;
+        height: 205px;
+    }
+    
+    
+    #child2{
+        width: 300px;
+        height: fit-content;
+        text-align: center;
+        background-image: url(../Images/bgbanner.jpg);
+        color: yellow;
+        border-radius: 50px;
+    
+    }
+    
+    #child2 h1{
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 30px;
+    }
+    
+    #child2 h1:hover{
+        color:rgba(255, 255, 255,0.5);
+    }
+    
+    #child3{
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    #child3 h1{
+        font-family: 'Zen Dots', cursive;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    .wrapper{
+        display: flex;
+        width:300px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height:auto;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper{
+        display: flex;
+        width:800px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height:auto;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .wrapper div{
+        width: 500px;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    #child2 h1{
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 20px;
+    }
+
+    #child2{
+        width: 500px;
+        height: fit-content;
+        text-align: center;
+        background-image: url(../Images/bgbanner.jpg);
+        color: yellow;
+        border-radius: 50px;
+    
+    }
+
+    
+}

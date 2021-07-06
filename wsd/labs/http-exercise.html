@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+      body {
+         margin: 0;
+         height: 100%;
+         width: 100%;
+        font-family: helvetica, sans-serif;
+      }
+
+      .container{
+         margin: 0;
+         height: 1600px;
+         width:1080px;
+         display: flex;
+         flex-direction: column;
+         justify-content:space-around;
+         padding: 10px;
+         
+      }
+
+      .container div{      
+         border: 1px solid black;
+         background-color: rgb(168, 197, 250);
+         padding: 5px;
+      }
+
+      </style>
+</head>
+<body>
+   <div class="container">
+      <div>
+         <strong>1. What is the Hypertext Transfer Protocol (HTTP) </strong>  <br/><br/>
+         -> Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. <br>
+         <br/>
+      </div>
+      
+      <div>
+         <strong>2. Why is HTTP called a stateless protocol? </strong><br/><br/>
+         -> HTTP is called as a stateless protocol because each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost.  <br>
+         <br/>
+      </div>
+      
+      <div>
+         <strong>3. Describe the three phases of establishing a session using client-server protocols such as HTTP</strong> <br/><br/>
+
+         -> (1)The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP). <br/>
+            (2)The client sends its request, and waits for the answer. <br/>
+            (3)The server processes the request, sending back its answer, providing a status code and appropriate data. <br/>
+            <br/>
+      </div>
+      
+      <div>
+         <strong>4. Describe the parameters on a get and post request. </strong><br/><br/>
+         -> GET : The parameter name and it's associated values are present. <br>
+            POST: The keys and values are encoded in a data structure and non alphanumeric characters are percent encoded.<br>
+            <br/>
+      </div>
+      
+      <div>
+         <strong>5. What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</strong> <br/><br/>
+         -> Response status codes indicate whether requests are successfully completed or not. <br>
+            HTTP status code 200 - the request has succeeded. <br>
+            HTTP status code 404 - the server was unable to find the requested resource. <br>
+            <br/>
+      </div>
+      
+      <div>
+         <strong>6. What are HTTP cookies? Give an example.</strong> <br/><br/>
+         -> Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience. Examples : Magic cookies<br>
+         <br/>
+      </div>
+      
+      <div>
+         <strong>7. Why are cookies a security issue?</strong> <br/><br/>
+         -> They can be read an modified/edited by those who have access to a clients hard disk in spite of the security measures taken to ensure cookies cannot fall into the hands of
+         third parties and only go to the intended recipient. <br>
+         <br/>
+      </div>
+      
+      <div>
+         <strong>8. Describe session hijacking and XSS</strong> <br/><br/>
+         -> XSS, referring to cross site scripting is a security gap which allows an attacker to inject malicious client side code into the website. This code is later executed by the 
+         victims of the attack and allow the attacker to get past security/access controls and subsequently impersonate users. Session Hijacking relies on an attackers knowledge of a users session cookie. Once a user is authenticated on the server side, the attacker is capable of using the session cookie to 
+         hijack the session on their own browser. <br>
+         <br/>
+      </div>
+      
+      <div>
+        <strong>9. Describe Cross-site request forgery(CSRF)-></strong> <br/><br/>
+         -> An attacker can use XSS to launch a CSRF attack. The attacker causes a user's browser to send a request to the website without the user's own knowledge. <br>
+         <br/> 
+      </div>
+      
+      <div>
+         <strong>10. What are Cross-site HTTP requests (CORS) and what requests use CORS?</strong> <br/><br/>
+         -> They are requests for resources belonging to a different domain than the domain of the resource that makes the request. <br>
+         CSS Shapes from images makes such requests. <br>
+         <br/>
+      </div>
+      
+   </div>
+    
+</body>
+</html>
+
